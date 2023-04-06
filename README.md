@@ -32,6 +32,7 @@
   > `TabBar`를 `Container` 위젯으로 감싸서 색상과 높이, padding과 margin을 설정하였고, `TabBar`의 `Tab`이 선택되었을 때 디자인을 UI 디자인에 맞게 indicator를 설정하였습니다.
   >
   > `Tab`은 HOME, 일정, 나의정보, AngelClub 4개로 구성되어 있으며, AngelClub 탭의 경우 `SVGPicture`위젯을 활용하여 svg 파일로 나타내었습니다.
+  > 
   
   
   #### main_home.dart
@@ -52,3 +53,43 @@
   >
   >
   > carousel_slider 라이브러리를 활용하여 경기 일정 리스트를 나타내려 했으나, `CarouselSlider`의 경우 하나의 item을 포커스하여 나타내기 때문에, 여러 경기 일정을 한번에 확인하기에는 적합하지 않아 `ListView`위젯으로 대체하였습니다. 
+
+### 실행 결과
+
+**메인화면(HOME 탭)**
+
+![1](https://user-images.githubusercontent.com/92203597/230275994-00292531-1c47-4554-a9e7-554a5b2eeab8.PNG)
+
+
+
+
+**다른 경기 일정 선택 시**
+
+![2](https://user-images.githubusercontent.com/92203597/230276074-1bb5ce5f-4847-45e5-b834-d9f7752a8aa8.PNG)
+
+
+
+
+**경기 일정 스와이프**
+
+![3](https://user-images.githubusercontent.com/92203597/230276087-98841a8a-885e-4c5e-8df6-fc4179a7e0ba.PNG)
+
+
+
+
+**일정 탭 선택**
+
+![4](https://user-images.githubusercontent.com/92203597/230276104-4d86405f-d4fd-4e95-9a22-143cb18b841d.PNG)
+
+
+
+
+**나의 정보 탭 선택**
+
+![5](https://user-images.githubusercontent.com/92203597/230276111-21e2689b-3146-4b93-970b-a7ac084f18a9.PNG)
+
+
+
+**AngelClub 탭 선택**
+
+![6](https://user-images.githubusercontent.com/92203597/230276121-893f8732-50e4-400f-90ed-2b9bd2de0869.PNG)
