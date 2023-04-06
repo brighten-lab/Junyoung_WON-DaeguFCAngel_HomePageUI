@@ -6,17 +6,17 @@
 
 브라이튼에서 개발 중인 '대구FC 엔젤' 모바일 app의 메인 홈페이지를 디자인에 맞게 간단하게 구현해보았습니다.
 
-### 개발 환경
+### :computer: 개발 환경
  - Flutter 3.7.3
  - Dart 2.19.2
  - IDE : VSCode
  - 테스트 AVD :  Pixel XL API 22(android-x64 emulator) - 5.5인치(16:9)
  
-### 활용한 라이브러리
+### :books: 활용한 라이브러리
  - [flutter_svg](https://pub.dev/packages/flutter_svg): 2.0.4
  - ~~[carousel_slider](https://pub.dev/packages/carousel_slider): 4.2.1~~
  
-### 상세 설명
+### :eyes: 상세 설명
    - 파일 구성
        - main.dart : 메인 화면 리스트(홈 화면, 일정 화면, 나의 정보 화면, AngelClub 안내 화면)와 하단 네비게이션 바를 포함
        - bottombar.dart : 하단 네비게이션 바를 구현
